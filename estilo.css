@@ -1,0 +1,129 @@
+* {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;display: block;}
+title {display: none;}
+.arvore {
+	margin: 20px auto;
+	position: relative;
+	height: 579px;
+	border-bottom: 2px dotted #662712;
+	overflow: hidden;
+	width: 500px;
+}
+.folhas-topo {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #277000;
+	top: -45px;
+	position: relative;
+}
+.folhas-meio {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 180px solid #277000; 
+	top: -100px;
+	position: relative;
+}
+.folhas-base {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 230px solid #277000; 
+	top: -155px;
+	position: relative;
+}
+.base {
+	width: 190px;
+	height: 75px;
+	background-color: #662712;
+	position: relative;
+	top: -155px;
+	margin: 0 auto;
+}
+
+.estrela-um {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid #eaff00;
+}
+.estrela-dois {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 60px solid #eaff00;
+	top: -40px;
+	position: relative;
+}
+.bola-um, .bola-dois, .bola-tres, .bola-quatro, .bola-cinco, .bola-seis, .bola-sete {
+	background-color: red;
+	border-radius: 40px;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 170px;
+	right: 288px;
+	animation: piscapisca 5s infinite;
+	-webkit-animation: piscapisca 5s infinite;
+}
+.bola-dois {
+	top: 290px;
+	right: 330px;
+	animation: piscapisca 5s infinite;
+	-webkit-animation: piscapisca 5s infinite;
+}
+.bola-tres {
+	top: 200px;
+	right: 210px;
+	animation: piscapisca 2s infinite;
+	-webkit-animation: piscapisca 2s infinite;
+}
+.bola-quatro {
+	top: 448px;
+	right: 360px;
+	animation: piscapisca 6s infinite;
+	-webkit-animation: piscapisca 6s infinite;
+}
+.bola-cinco {
+	top: 355px;
+	right: 232px;
+	animation: piscapisca 3s infinite;
+	-webkit-animation: piscapisca 3s infinite;
+}
+.bola-seis {
+	top: 455px;
+	right: 140px;
+	animation: piscapisca 4s infinite;
+	-webkit-animation: piscapisca 4s infinite;
+}
+.bola-sete {
+	top: 270px;
+	right: 160px;
+	animation: piscapisca 5s infinite;
+	-webkit-animation: piscapisca 5s infinite;
+}
+.like {
+	top: 30px;
+	position: absolute;
+	left: 30px;
+}
+
+@keyframes piscapisca {
+	from {background: red;}
+	to {background: yellow;}
+}
+
+@-webkit-keyframes piscapisca {
+	from {background: red;}
+	to {background: yellow;}
+}
