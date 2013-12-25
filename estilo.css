@@ -1,4 +1,5 @@
 * {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;display: block;}
+html {background: #000724;}
 title {display: none;}
 .arvore {
 	margin: 20px auto;
@@ -116,6 +117,15 @@ title {display: none;}
 	top: 30px;
 	position: absolute;
 	left: 30px;
+}
+.tag {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background: url('tag.png');
+	width: 140px;
+	height: 140px;
+	display: block;
 }
 
 @keyframes piscapisca {
